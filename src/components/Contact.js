@@ -17,12 +17,12 @@ const Contact = () => {
         <div className='flex flex-col text-center items-center my-20'>
             <div className="w-full flex flex-col justify-between items-center gap-6 lg:flex-row lg:items-start">
                 <div
-                    className="p-6 w-full max-w-xs  rounded-lg backdrop-blur-sm transition-all duration-300 group"
+                    className="p-6 w-full max-w-xs  rounded-lg  transition-all duration-300 group"
                 >
                     <h3 className="text-left font-bold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-violet-500/90 to-blue-500/90  transform transition-all duration-300">
                         Krushna Sananse
                     </h3>
-                    <p className="text-left text-gray-300 group-hover:text-gray-400 blur-[0.25px] group-hover:blur-0 mt-2 transition-all duration-300">
+                    <p className="text-left text-gray-300 group-hover:text-gray-400  mt-2 transition-all duration-300">
                         Full Stack Developer dedicated to crafting clean, scalable, and user-centric digital experiences. Focused on building meaningful products that solve real-world problems with modern technologies.
                     </p>
                     <div className="flex items-center space-x-4 mt-4">
@@ -38,12 +38,12 @@ const Contact = () => {
                     </div>
                 </div>
                 <div
-                    className="p-6 w-full max-w-xs  rounded-lg backdrop-blur-sm transition-all duration-300 group"
+                    className="p-6 w-full max-w-xs  rounded-lg  transition-all duration-300 group"
                 >
                     <h3 className="text-left font-bold text-2xl text-transparent  text-white">
                         Quick Links
                     </h3>
-                    <div className="text-left text-gray-300 group-hover:text-gray-400 blur-[0.25px] group-hover:blur-0 mt-2 transition-all duration-300 space-y-3">
+                    <div className="text-left text-gray-300 group-hover:text-gray-400 mt-2 transition-all duration-300 space-y-3">
                         <div className='flex items-center space-x-3'>
                             <a href="#home">
                                 <img src={linkIcon} alt="Link Icon" className='w-6 h-6' />
@@ -75,12 +75,12 @@ const Contact = () => {
                 </div>
 
                 <div
-                    className="p-6 w-full max-w-xs rounded-lg backdrop-blur-sm transition-all duration-300 group"
+                    className="p-6 w-full max-w-xs rounded-lg transition-all duration-300 group"
                 >
                     <h3 className="text-left font-bold text-2xl text-transparent text-white">
                         Contact
                     </h3>
-                    <p className="text-left text-gray-300 group-hover:text-gray-400 blur-[0.25px] group-hover:blur-0 mt-2 transition-all duration-300">
+                    <p className="text-left text-gray-300 group-hover:text-gray-400 mt-2 transition-all duration-300">
                         <div className='flex items-center space-x-3'><img src={mailIcon} alt="Mail Icon" className='w-6 h-6 mr-2' /> <span>krishsananse@gmail.com</span></div><br/>
                         <div className='flex items-center space-x-3'><img src={callIcon} alt="Phone Icon" className='w-6 h-6 mr-2' /> <span>(+91) 9284565974</span></div><br/>
                         <div className='flex items-center space-x-3'><img src={locationIcon} alt="Location Icon" className='w-6 h-6 mr-2' /> <span>Pune, India</span></div><br/>

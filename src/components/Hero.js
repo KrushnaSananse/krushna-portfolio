@@ -20,7 +20,7 @@ const Hero = () => {
                          to-purple-500 bg-clip-text 
                          text-3xl lg:text-4xl tracking-tight text-transparent '>
                         Frontend | Backend | Full Stack Developer
-                    </span>
+                    </span> 
                     <p className='text-center mt-10 min-w-xl py-6 font-light tracking-tighter lg:text-xl text-neutral-500'>
                         {HERO_CONTENT}
                     </p>
